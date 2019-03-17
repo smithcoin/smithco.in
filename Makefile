@@ -1,4 +1,4 @@
-all: deploy build-lambda
+all: deploy build-go
 
 deploy:
 	npm run build
