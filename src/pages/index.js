@@ -12,9 +12,11 @@ const IndexPage = () => (
     <p>Welcome to my website.</p>
     <p>You can shoot me an <a href="mailto:daniel@smithco.in">email</a>.</p>
     <p>Great things to come.</p>
+
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Astronaut />
     </div>
+    <Link to="/lambdas/">Lambdas</Link><br></br>
     <Link to="/about/">About Me</Link>
   </Layout>
 )
