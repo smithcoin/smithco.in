@@ -1,6 +1,6 @@
 [build]
   functions = "functions"
-  command = "make all"
+  command = "make deploy"
   publish = "public"
 [build.environment]
 GO_IMPORT_PATH = "github.com/smithcoin/smithco.in"
