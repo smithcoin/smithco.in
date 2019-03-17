@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://smithcoin.netlify.com/* http://smithco.in/:splat 301!
