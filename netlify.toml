@@ -4,3 +4,11 @@
   publish = "public"
 [build.environment]
 GO_IMPORT_PATH = "github.com/smithcoin/smithco.in"
+
+
+[context."features/js"]
+  command = "make js"
+
+
+[context."features/go"]
+  command = "make go"
