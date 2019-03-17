@@ -4,7 +4,7 @@ deploy:
 	npm run build
 
 build-go:
-	go get ./...
+	go mod tidy
 	go build -o functions/hello-world ./...
 
 build-lambda:
