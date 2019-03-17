@@ -1,11 +1,11 @@
-all: deploy lambda-js build-go
+all: deploy build-go build-lambda
 
 deploy:
 	npm run build
 
-lambda-js:
-	npm run build:lambda
-
 build-go:
 	go get ./...
 	go build -o functions/hello-world ./...
+
+build-lambda:
+	npm run build:lambda
