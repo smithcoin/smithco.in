@@ -5,13 +5,13 @@ import (
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
-func handler(request events.APIGatewayProxyRequest) (events.APIGtewayProxyResponse, error) {
-	return events.APIGatewayProxyREsponse{
+func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
+	return events.APIGatewayProxyResponse{
 		StatusCode: 200,
-		Body:	    "Hello World!",
+		Body:       "Hello World!",
 	}, nil
 }
 
-func main()  {
+func main() {
 	lambda.Start(handler)
 }
