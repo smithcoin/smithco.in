@@ -1,5 +1,5 @@
 [build]
-  functions = "functions"
+  functions = "lambda"
   command = "make deploy"
   publish = "public"
 [build.environment]
