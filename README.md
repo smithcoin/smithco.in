@@ -14,8 +14,8 @@ The two functions have to be deployed on different branched and subdomains becau
 1. `Teapot`
     * written in js
     * see the 'js' branch
-    * `curl --request POST --url https://js.smithco.in/.netlify/functions/teapot`
+    * `curl --request POST -d "Content-Length: 0" --url https://js.smithco.in/.netlify/functions/teapot`
 2. `Hello World`
     * written in golang
     * see the 'go' branch
-    * `curl --request POST --url https://go.smithco.in/.netlify/functions/hello-world`
+    * `curl --request POST -d "Content-Length: 0" --url https://go.smithco.in/.netlify/functions/hello-world`
