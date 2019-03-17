@@ -30,6 +30,10 @@ module.exports = {
       options: {
         trackingId: "UA-135112977-1",
       },
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://smithco.in`,
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
