@@ -4,7 +4,7 @@ build:
 	npm run build
 
 deploy-go:
-	rm functions/teaspot.js
+	rm functions/teapot.js
 	npm run build
 	go get ./...
 	go build -o lambda/hello ./...
