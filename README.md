@@ -15,3 +15,7 @@ Currently there are two lambda functions deployed with this site:
 2. `Hello World`
     * written in golang
     * `curl --request POST -d "Content-Length: 0" --url https://go.smithco.in/.netlify/functions/hello`
+
+#### Subdomains
+
+smithco.in supports two subdomains `go` and `js`. These are represented by the two different branches in github which deploy to netlify. The `netlify.toml` provides them with different build instructions from the `Makefile`. Each branch contains lambdas written in its title language.
