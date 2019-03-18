@@ -5,8 +5,8 @@
 [build.environment]
 GO_IMPORT_PATH = "github.com/smithcoin/smithco.in"
 
-[context."features/js"]
+[context.js]
   command = "make deploy-js"
 
-[context."features/go"]
+[context.go]
   command = "make deploy-go"
