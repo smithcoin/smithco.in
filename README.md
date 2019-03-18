@@ -9,13 +9,9 @@ Deployed with [![Netlify Status](https://api.netlify.com/api/v1/badges/7352032f-
 
 Currently there are two lambda functions deployed with this site:
 
-The two functions have to be deployed on different branched and subdomains because currently Netlify does not support deploying functions in two languages.
-
 1. `Teapot`
     * written in js
-    * see the 'js' branch
     * `curl --request POST -d "Content-Length: 0" --url https://js.smithco.in/.netlify/functions/teapot`
 2. `Hello World`
     * written in golang
-    * see the 'go' branch
-    * `curl --request POST -d "Content-Length: 0" --url https://go.smithco.in/.netlify/functions/hello-world`
+    * `curl --request POST -d "Content-Length: 0" --url https://go.smithco.in/.netlify/functions/hello`
