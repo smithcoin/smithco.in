@@ -10,7 +10,7 @@ const Projects = () => (
     <h1>Projects</h1>
     <p> Recently I have begun playing around with Arduino and Rasperberry Pis</p>
     <p> I'm going to document my work here as I progress more.</p>
-    <p> For now you can checkout my <a href="https://github.com/smithcoin">github</a>.
+    <p> For now you can checkout my <a href="https://github.com/smithcoin">github.</a></p>
     <Link to="/">Return</Link>
   </Layout>
 
