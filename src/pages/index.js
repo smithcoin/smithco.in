@@ -17,6 +17,7 @@ const IndexPage = () => (
       <Astronaut />
     </div>
     <Link to="/lambdas/">Lambdas</Link><br></br>
+    <Link to="/projects/">Projects</Link><br></br>
     <Link to="/about/">About Me</Link>
   </Layout>
 )
